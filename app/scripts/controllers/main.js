@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('ngJsonExplorerApp')
-.controller('MainCtrl', function ($scope) {
+.controller('MainCtrl', ['$scope', function ($scope) {
 	$scope.awesomeThings = [
 		'HTML5 Boilerplate',
 		'AngularJS',
@@ -25,4 +25,4 @@ angular.module('ngJsonExplorerApp')
 				}
 			};
 			
-});
+}]);
